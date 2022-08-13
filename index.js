@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
+        "jest/globals": true
     },
     "extends": [
         "eslint:recommended",
@@ -8,7 +9,8 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "plugin:import/recommended",
         "plugin:import/typescript",
-        "plugin:react-hooks/recommended"
+        "plugin:react-hooks/recommended",
+        "plugin:jest/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -26,7 +28,8 @@ module.exports = {
         "@typescript-eslint",
         "import",
         "simple-import-sort",
-        "unused-imports"
+        "unused-imports",
+        "jest"
     ],
     "settings": {
         "import/parsers": {
