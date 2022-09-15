@@ -129,7 +129,8 @@ module.exports = {
             "error",
             4,
             {
-                ignoredNodes: ['TSTypeParameterInstantiation']
+                ignoredNodes: ['TSTypeParameterInstantiation'],
+                SwitchCase: 1
             }
         ],
         "linebreak-style": [
