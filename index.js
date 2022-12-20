@@ -192,7 +192,7 @@ module.exports = {
         ],
         "react/jsx-fragments": [
             1,
-            "element"
+            "syntax"
         ],
         "react/jsx-max-props-per-line": [
             1,
